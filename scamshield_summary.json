@@ -1,0 +1,28 @@
+{
+  "data": "PaySim (Kaggle)",
+  "platform": "s390x",
+  "engine": "HistGradientBoosting",
+  "kopylov_reproduced_auprc_exp3": 0.8022633108554968,
+  "feature_sets": {
+    "A \u00b7 Kopylov (leaky)": {
+      "AUPRC": 1.0,
+      "recall @ 90% precision": 1.0
+    },
+    "B \u00b7 No balances": {
+      "AUPRC": 0.4262,
+      "recall @ 90% precision": 0.1341
+    },
+    "C \u00b7 ScamShield": {
+      "AUPRC": 0.9998,
+      "recall @ 90% precision": 0.9998
+    }
+  },
+  "thresholds": {
+    "step_up": 0.00023688586380780856,
+    "hold": 0.9999918603122041
+  },
+  "latency_ms": {
+    "median": 0.8555829990655184,
+    "p99": 1.41966865863651
+  }
+}
